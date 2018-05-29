@@ -1,0 +1,16 @@
+pluigns {
+    id 'java'
+}
+
+group 'net.tastoys.chatserv'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation'io.nats:jnats:1.0'
+}
